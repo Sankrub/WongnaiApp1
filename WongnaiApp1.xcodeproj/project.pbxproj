@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		A57EB8C22BB2EE9E004B0D5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8C12BB2EE9E004B0D5C /* AppDelegate.swift */; };
 		A57EB8C42BB2EE9E004B0D5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8C32BB2EE9E004B0D5C /* SceneDelegate.swift */; };
-		A57EB8C62BB2EE9E004B0D5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8C52BB2EE9E004B0D5C /* ViewController.swift */; };
+		A57EB8C62BB2EE9E004B0D5C /* PhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8C52BB2EE9E004B0D5C /* PhotoListViewController.swift */; };
 		A57EB8C92BB2EE9E004B0D5C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A57EB8C82BB2EE9E004B0D5C /* Base */; };
 		A57EB8CB2BB2EEA0004B0D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57EB8CA2BB2EEA0004B0D5C /* Assets.xcassets */; };
 		A57EB8CE2BB2EEA0004B0D5C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A57EB8CD2BB2EEA0004B0D5C /* Base */; };
+		A57EB8DC2BB2EFCE004B0D5C /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8DB2BB2EFCE004B0D5C /* UIImageView+Extension.swift */; };
+		A57EB8DE2BB2EFFD004B0D5C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8DD2BB2EFFD004B0D5C /* Constant.swift */; };
+		A57EB8E02BB2F019004B0D5C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8DF2BB2F019004B0D5C /* DataModel.swift */; };
+		A57EB8E22BB2F038004B0D5C /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8E12BB2F038004B0D5C /* PhotoViewModel.swift */; };
+		A57EB8E82BB2F29F004B0D5C /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8E62BB2F29F004B0D5C /* PhotoCell.swift */; };
+		A57EB8E92BB2F29F004B0D5C /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A57EB8E72BB2F29F004B0D5C /* PhotoCell.xib */; };
+		A57EB8EB2BB2F4B2004B0D5C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EB8EA2BB2F4B2004B0D5C /* APIManager.swift */; };
+		A57EB8EE2BB3004B004B0D5C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A57EB8ED2BB3004B004B0D5C /* Kingfisher */; };
+		A58C38D32BB48BAD00C8E98A /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C38D22BB48BAD00C8E98A /* NetworkHandler.swift */; };
+		A58C38D52BB48BDC00C8E98A /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58C38D42BB48BDC00C8E98A /* ResponseHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A57EB8BE2BB2EE9E004B0D5C /* WongnaiApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WongnaiApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57EB8C12BB2EE9E004B0D5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A57EB8C32BB2EE9E004B0D5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A57EB8C52BB2EE9E004B0D5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A57EB8C52BB2EE9E004B0D5C /* PhotoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewController.swift; sourceTree = "<group>"; };
 		A57EB8C82BB2EE9E004B0D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A57EB8CA2BB2EEA0004B0D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A57EB8CD2BB2EEA0004B0D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A57EB8CF2BB2EEA0004B0D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57EB8DB2BB2EFCE004B0D5C /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		A57EB8DD2BB2EFFD004B0D5C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A57EB8DF2BB2F019004B0D5C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A57EB8E12BB2F038004B0D5C /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		A57EB8E62BB2F29F004B0D5C /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A57EB8E72BB2F29F004B0D5C /* PhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		A57EB8EA2BB2F4B2004B0D5C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A58C38D22BB48BAD00C8E98A /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		A58C38D42BB48BDC00C8E98A /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57EB8EE2BB3004B004B0D5C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,80 @@
 		A57EB8C02BB2EE9E004B0D5C /* WongnaiApp1 */ = {
 			isa = PBXGroup;
 			children = (
-				A57EB8C12BB2EE9E004B0D5C /* AppDelegate.swift */,
-				A57EB8C32BB2EE9E004B0D5C /* SceneDelegate.swift */,
-				A57EB8C52BB2EE9E004B0D5C /* ViewController.swift */,
-				A57EB8C72BB2EE9E004B0D5C /* Main.storyboard */,
-				A57EB8CA2BB2EEA0004B0D5C /* Assets.xcassets */,
-				A57EB8CC2BB2EEA0004B0D5C /* LaunchScreen.storyboard */,
+				A57EB8DA2BB2EEE8004B0D5C /* Extension */,
+				A57EB8D92BB2EEE5004B0D5C /* Constant */,
+				A57EB8D82BB2EEDB004B0D5C /* Model */,
+				A57EB8D72BB2EED9004B0D5C /* View */,
+				A57EB8D62BB2EED6004B0D5C /* Network */,
+				A57EB8D52BB2EECF004B0D5C /* Resources */,
 				A57EB8CF2BB2EEA0004B0D5C /* Info.plist */,
 			);
 			path = WongnaiApp1;
+			sourceTree = "<group>";
+		};
+		A57EB8D52BB2EECF004B0D5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8CC2BB2EEA0004B0D5C /* LaunchScreen.storyboard */,
+				A57EB8CA2BB2EEA0004B0D5C /* Assets.xcassets */,
+				A57EB8C12BB2EE9E004B0D5C /* AppDelegate.swift */,
+				A57EB8C32BB2EE9E004B0D5C /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A57EB8D62BB2EED6004B0D5C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8EA2BB2F4B2004B0D5C /* APIManager.swift */,
+				A58C38D22BB48BAD00C8E98A /* NetworkHandler.swift */,
+				A58C38D42BB48BDC00C8E98A /* ResponseHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A57EB8D72BB2EED9004B0D5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8C52BB2EE9E004B0D5C /* PhotoListViewController.swift */,
+				A57EB8C72BB2EE9E004B0D5C /* Main.storyboard */,
+				A57EB8E52BB2F274004B0D5C /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A57EB8D82BB2EEDB004B0D5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8DF2BB2F019004B0D5C /* DataModel.swift */,
+				A57EB8E12BB2F038004B0D5C /* PhotoViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A57EB8D92BB2EEE5004B0D5C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8DD2BB2EFFD004B0D5C /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A57EB8DA2BB2EEE8004B0D5C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8DB2BB2EFCE004B0D5C /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A57EB8E52BB2F274004B0D5C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A57EB8E62BB2F29F004B0D5C /* PhotoCell.swift */,
+				A57EB8E72BB2F29F004B0D5C /* PhotoCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +168,9 @@
 			dependencies = (
 			);
 			name = WongnaiApp1;
+			packageProductDependencies = (
+				A57EB8ED2BB3004B004B0D5C /* Kingfisher */,
+			);
 			productName = WongnaiApp1;
 			productReference = A57EB8BE2BB2EE9E004B0D5C /* WongnaiApp1.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,9 @@
 				Base,
 			);
 			mainGroup = A57EB8B52BB2EE9E004B0D5C;
+			packageReferences = (
+				A57EB8EC2BB3004B004B0D5C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A57EB8BF2BB2EE9E004B0D5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57EB8E92BB2F29F004B0D5C /* PhotoCell.xib in Resources */,
 				A57EB8CB2BB2EEA0004B0D5C /* Assets.xcassets in Resources */,
 				A57EB8CE2BB2EEA0004B0D5C /* Base in Resources */,
 				A57EB8C92BB2EE9E004B0D5C /* Base in Resources */,
@@ -138,9 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57EB8C62BB2EE9E004B0D5C /* ViewController.swift in Sources */,
+				A57EB8C62BB2EE9E004B0D5C /* PhotoListViewController.swift in Sources */,
 				A57EB8C22BB2EE9E004B0D5C /* AppDelegate.swift in Sources */,
+				A57EB8E22BB2F038004B0D5C /* PhotoViewModel.swift in Sources */,
+				A58C38D52BB48BDC00C8E98A /* ResponseHandler.swift in Sources */,
+				A58C38D32BB48BAD00C8E98A /* NetworkHandler.swift in Sources */,
+				A57EB8EB2BB2F4B2004B0D5C /* APIManager.swift in Sources */,
+				A57EB8DE2BB2EFFD004B0D5C /* Constant.swift in Sources */,
+				A57EB8E82BB2F29F004B0D5C /* PhotoCell.swift in Sources */,
+				A57EB8DC2BB2EFCE004B0D5C /* UIImageView+Extension.swift in Sources */,
 				A57EB8C42BB2EE9E004B0D5C /* SceneDelegate.swift in Sources */,
+				A57EB8E02BB2F019004B0D5C /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +399,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +427,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -361,6 +463,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A57EB8EC2BB3004B004B0D5C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A57EB8ED2BB3004B004B0D5C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A57EB8EC2BB3004B004B0D5C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A57EB8B62BB2EE9E004B0D5C /* Project object */;
 }
