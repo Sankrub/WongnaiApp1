@@ -27,6 +27,7 @@ final class APIManager {
         self.responseHandler = responseHandler
     }
     
+    // for pulling data from url using along with class networkHandler and responseHandler
     func fetchData(completion: @escaping (Result<[Photo], DataError>) -> Void) {
         guard let url = URL(string: Constant.API.DataUrl) else {
             completion(.failure(.invalidURL))

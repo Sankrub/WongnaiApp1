@@ -9,6 +9,8 @@ import Foundation
 
 
 class NetworkHandler {
+    
+    // Pulling data from api through networking.
     func requestData(from url: URL, completion: @escaping (Result<Data, DataError>) -> Void) {
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             guard error == nil else {
